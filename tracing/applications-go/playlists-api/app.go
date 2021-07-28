@@ -42,7 +42,7 @@ func main() {
 		// Log the emitted spans to stdout.
 		Reporter: &config.ReporterConfig{
 			LogSpans: true,
-			LocalAgentHostPort: jaeger_host_port,
+			LocalAgentHostPort: "jaeger:6831",
 		},
 	}
 
