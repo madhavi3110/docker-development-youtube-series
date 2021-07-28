@@ -41,7 +41,7 @@ services:
     - "REDIS_HOST=videos-db"
     - "REDIS_PORT=6379"
     - "JAEGER_HOST_PORT=jaeger:6831"
-    #- "DELAY=true"
+    - "DELAY=true"
     #- "FLAKY=true"
     ports:
     - 82:10010
